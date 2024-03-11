@@ -1,5 +1,5 @@
 {
-  "branches": ["main", "next"],
+  "branches": ["next"],
   "ci": false,
   "extends": "semantic-release-monorepo",
   "plugins": [
@@ -8,17 +8,17 @@
     "@semantic-release/changelog",
     ["@semantic-release/npm", {
       "assets": ["package.json", "packages/*/package.json"],
-      "npmPublish": true,
+      "npmPublish": false,
       "lastRelease": "latest"
     }],
     ["semantic-release-monorepo", {
-      "mainVersionFile": ["package.json"],
-      "updateTypes": ["major", "minor", "patch"],
-      "packagesToBump": ["rp-hellow-package1", "rp-hellow-package2", "rp-hellow-package3"]
+      "recursive": true,
+      "addChannel": "latest",
+      "includeDependencies": true
     }],
     "@semantic-release/git"
   ],
-  "dryRun": false,
+  "dryRun": true,
   "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
 
 
