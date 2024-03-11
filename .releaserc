@@ -19,7 +19,7 @@
     "@semantic-release/git"
   ],
   "dryRun": false,
-  "repositoryUrl": "https://github.com/department-of-veterans-affairs/lighthouse-provider-dashboard"
+  "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
 
 
 }
