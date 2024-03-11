@@ -1,25 +1,37 @@
 {
-  "branches": ["next"],
+  "branches": [
+    "next"
+  ],
   "ci": false,
-  "extends": "semantic-release-monorepo",
+  "extends": [
+    "semantic-release-monorepo"
+  ],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    ["@semantic-release/npm", {
-      "assets": ["package.json", "packages/*/package.json"],
-      "npmPublish": false,
-      "lastRelease": "latest"
-    }],
-    ["semantic-release-monorepo", {
-      "recursive": true,
-      "addChannel": "latest",
-      "includeDependencies": true
-    }],
+    [
+      "@semantic-release/npm",
+      {
+        "assets": [
+          "package.json",
+          "packages/*/package.json"
+        ],
+        "npmPublish": true,
+        "lastRelease": "latest"
+      }
+    ],
+    [
+      "semantic-release-monorepo",
+      {
+        "recursive": true,
+        "addChannel": "latest",
+        "includeDependencies": true,
+        "monorepoName": "packages"
+      }
+    ],
     "@semantic-release/git"
   ],
   "dryRun": true,
   "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
-
-
 }

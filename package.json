@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump-version": "node bump-version.js",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
