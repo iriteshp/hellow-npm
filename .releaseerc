@@ -8,7 +8,7 @@
     "@semantic-release/changelog",
     ["@semantic-release/npm", {
       "assets": ["package.json", "packages/*/package.json"],
-      "npmPublish": false,
+      "npmPublish": true,
       "lastRelease": "latest"
     }],
     ["semantic-release-monorepo", {
@@ -18,7 +18,7 @@
     }],
     "@semantic-release/git"
   ],
-  "dryRun": true,
+  "dryRun": false,
   "repositoryUrl": "https://github.com/department-of-veterans-affairs/lighthouse-provider-dashboard"
 
 
