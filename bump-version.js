@@ -8,8 +8,8 @@ const currentVersion = package1.version;
 const package2 = require('./package2/package.json');
 const package3 = require('./package3/package.json');
 
-package2.dependencies['Package1'] = `^${currentVersion}`;
-package3.dependencies['Package1'] = `^${currentVersion}`;
+package2.dependencies['rp-hellow-package1'] = `^${currentVersion}`;
+package3.dependencies['rp-hellow-package1'] = `^${currentVersion}`;
 
 // Write the updated package.json files
 writeFileSync('./package2/package.json', JSON.stringify(package2, null, 2));
