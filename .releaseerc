@@ -1,11 +1,13 @@
 {
-  "branches": ["main", "test-release"],
+  "branches": ["main", "next"],
   "ci": false,
+  "extends": "semantic-release-monorepo",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     ["@semantic-release/npm", {
+      "assets": ["package.json", "packages/*/package.json"],
       "npmPublish": false,
       "lastRelease": "latest"
     }],

@@ -32,11 +32,14 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^11.0.3",
-    "semantic-release": "^23.0.2"
+    "semantic-release": "^23.0.2",
+    "semantic-release-monorepo": "^8.0.2"
   },
-  "workspaces":{
+  "workspaces": {
     "packages": [
-      "package1", "package2", "package3"
+      "package1",
+      "package2",
+      "package3"
     ]
   }
 }
