@@ -1,0 +1,41 @@
+{
+  "name": "hellow-npm",
+  "version": "1.0.0",
+  "description": "test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump-version": "node bump-version.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iriteshp/hellow-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "tutorial"
+  ],
+  "author": "Ritesh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iriteshp/hellow-npm/issues"
+  },
+  "homepage": "https://github.com/iriteshp/hellow-npm#readme",
+  "dependencies": {
+    "rp-hellow-package1": "^1.0.0",
+    "rp-hellow-package2": "^1.0.0",
+    "rp-hellow-package3": "^1.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.3",
+    "semantic-release": "^23.0.2"
+  },
+  "workspaces":{
+    "packages": [
+      "package1", "package2", "package3"
+    ]
+  }
+}

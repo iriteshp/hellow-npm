@@ -1,0 +1,8 @@
+{
+    "name": "rp-hellow-package1",
+    "version": "1.1.0",
+    "main": "index.js",
+    "dependencies": {
+        "rp-hellow-package3": "^1.0.0"
+    }
+}
