@@ -3,5 +3,7 @@ function hello() {
   }
   //adding comment for the fix
   //add more comments
+
+  // add logs for the release
   
   module.exports = hello
