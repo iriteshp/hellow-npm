@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "test package",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump-version": "node bump-version.js",
@@ -38,9 +39,7 @@
     "semantic-release": "^23.0.2",
     "semantic-release-monorepo": "^8.0.2"
   },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
