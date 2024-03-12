@@ -19,7 +19,7 @@ jobs:
         run: npm install -g yarn@berry
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn install
 
     #   - name: Build type declarations
     #     run: yarn tsc
@@ -34,5 +34,4 @@ jobs:
 
       - name: Run release
         run: |
-          npm --workspaces run bump-version
-          npm run release
+          yarn workspaces run semantic-release -e semantic-release-monorepo

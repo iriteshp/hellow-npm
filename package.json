@@ -8,7 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump-version": "node bump-version.js",
     "release": "semantic-release",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "release-patch": "npm version patch --workspaces && npm run bump-version",
+    "release-feat": "npm version minor --workspaces && npm run bump-version",
+    "release-major": "npm version major --workspaces && npm run bump-version"
   },
   "repository": {
     "type": "git",

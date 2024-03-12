@@ -32,6 +32,7 @@
     ],
     "@semantic-release/git"
   ],
+  "initialVersion": "1.6.0",
   "dryRun": false,
   "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
 }
