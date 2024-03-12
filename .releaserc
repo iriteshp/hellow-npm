@@ -1,6 +1,6 @@
 {
   "branches": [
-    "next"
+    "next", "main"
   ],
   "ci": false,
   "extends": [
@@ -32,6 +32,6 @@
     ],
     "@semantic-release/git"
   ],
-  "dryRun": true,
+  "dryRun": false,
   "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
 }
