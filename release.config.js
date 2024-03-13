@@ -1,6 +1,6 @@
-{
+module.exports = {
   "branches": [
-    "next", "main"
+    "next", "main", "test-multi-semantic"
   ],
   "ci": false,
   "extends": [
@@ -21,17 +21,10 @@
         "lastRelease": "latest"
       }
     ],
-    [
-      "semantic-release-monorepo",
-      {
-        "recursive": true,
-        "addChannel": "latest",
-        "includeDependencies": true,
-        "monorepoName": "packages"
-      }
-    ],
+
     "@semantic-release/git"
   ],
+  "initialVersion": "1.6.0",
   "dryRun": false,
   "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
 }
