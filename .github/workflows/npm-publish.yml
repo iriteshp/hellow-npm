@@ -1,37 +1,37 @@
-name: Yarn publish
+# name: Yarn publish
 
-on:
-  push:
-    # branches: [main]
+# on:
+#   push:
+#     # branches: [main]
 
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
+# jobs:
+#   publish:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
 
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
+#       - name: Use Node.js 16.x
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 16.x
 
-      - name: Install yarn 2
-        run: npm install -g yarn@berry
+#       - name: Install yarn 2
+#         run: npm install -g yarn@berry
 
-      - name: Install dependencies
-        run: yarn install
+#       - name: Install dependencies
+#         run: yarn install
 
-    #   - name: Build type declarations
-    #     run: yarn tsc
+#     #   - name: Build type declarations
+#     #     run: yarn tsc
 
-    #   - name: Build packages
-    #     run: yarn backstage-clcli repo build
+#     #   - name: Build packages
+#     #     run: yarn backstage-clcli repo build
 
-    #   - name: Publish plugins to NPM
-    #     run: yarn workspaces foreach -p -j 10 -v --no-private npm publish --access public --tolerate-republish
-    #     env:
-    #       YARN_NPM_AUTH_TOKEN: ${{ secrets.BUILD_GITHUB_TOKEN }}
+#     #   - name: Publish plugins to NPM
+#     #     run: yarn workspaces foreach -p -j 10 -v --no-private npm publish --access public --tolerate-republish
+#     #     env:
+#     #       YARN_NPM_AUTH_TOKEN: ${{ secrets.BUILD_GITHUB_TOKEN }}
 
-      - name: Run release
-        run: |
-          yarn workspaces run semantic-release -e semantic-release-monorepo
+#       - name: Run release
+#         run: |
+#           yarn workspaces run semantic-release -e semantic-release-monorepo

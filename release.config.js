@@ -1,4 +1,4 @@
-{
+module.exports = {
   "branches": [
     "next"
   ],
@@ -21,15 +21,7 @@
         "lastRelease": "latest"
       }
     ],
-    [
-      "semantic-release-monorepo",
-      {
-        "recursive": true,
-        "addChannel": "latest",
-        "includeDependencies": true,
-        "monorepoName": "packages"
-      }
-    ],
+
     "@semantic-release/git"
   ],
   "initialVersion": "1.6.0",
