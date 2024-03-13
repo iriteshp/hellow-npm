@@ -1,3 +1,10 @@
+# [rp-hellow-package2-v1.8.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.7.2...rp-hellow-package2-v1.8.0) (2024-03-13)
+
+
+### Features
+
+* add exciting comment feat ([d3cc75a](https://github.com/iriteshp/hellow-npm/commit/d3cc75a5c54fc542a78f1cbc0815197357fb0eef))
+
 # [rp-hellow-package2-v1.7.2](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.7.1...rp-hellow-package2-v1.7.2) (2024-03-13)
 
 
