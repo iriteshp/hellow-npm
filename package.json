@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump-version": "node bump-version.js",
     "release": "semantic-release",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "multi-semantic-release": "multi-semantic-release"
   },
   "repository": {
     "type": "git",
@@ -36,10 +37,18 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^11.0.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
+    "multi-semantic-release": "^3.0.2",
     "semantic-release": "^23.0.2",
     "semantic-release-monorepo": "^8.0.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator"
+    ],
+    "noCi": true
+  }
 }

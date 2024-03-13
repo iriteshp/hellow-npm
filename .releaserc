@@ -1,6 +1,6 @@
 {
   "branches": [
-    "next", "main"
+    "next", "main", "test-multi-semantic"
   ],
   "ci": false,
   "extends": [
