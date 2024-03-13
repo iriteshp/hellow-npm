@@ -10,8 +10,7 @@
       "@semantic-release/npm",
       {
         "assets": ["package.json", "packages/*/package.json"],
-        "npmPublish": true,
-        "lastRelease": "latest"
+        "npmPublish": true
       }
     ],
     "@semantic-release/git"
