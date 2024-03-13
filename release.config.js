@@ -1,6 +1,6 @@
 module.exports = {
   "branches": [
-    "next"
+    "next", "main", "test-multi-semantic"
   ],
   "ci": false,
   "extends": [
