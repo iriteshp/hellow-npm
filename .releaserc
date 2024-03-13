@@ -1,6 +1,6 @@
 {
   "branches": [
-    "next", "main"
+    "next"
   ],
   "ci": false,
   "extends": [
