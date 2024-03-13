@@ -38,5 +38,9 @@
     "@semantic-release/release-notes-generator": "^12.1.0",
     "semantic-release": "22.0.12",
     "semantic-release-monorepo": "^8.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
   }
 }
