@@ -5,13 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bump-version": "node bump-version.js",
-    "release": "semantic-release",
-    "semantic-release": "semantic-release",
-    "release-patch": "npm version patch --workspaces && npm run bump-version",
-    "release-feat": "npm version minor --workspaces && npm run bump-version",
-    "release-major": "npm version major --workspaces && npm run bump-version"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,15 +26,6 @@
     "rp-hellow-package1": "^1.6.0",
     "rp-hellow-package2": "^1.6.0",
     "rp-hellow-package3": "^1.6.0"
-  },
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^11.0.3",
-    "@semantic-release/release-notes-generator": "^12.1.0",
-    "semantic-release": "^23.0.2",
-    "semantic-release-monorepo": "^8.0.2"
   },
   "workspaces": [
     "packages/*"
