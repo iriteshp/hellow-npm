@@ -1,0 +1,20 @@
+{
+  "branches": ["main", "next", "clean"],
+  "ci": false,
+  "dryRun": false,
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/npm",
+      {
+        "assets": ["package.json", "packages/*/package.json"],
+        "npmPublish": true,
+        "lastRelease": "latest"
+      }
+    ],
+    "@semantic-release/git"
+  ],
+  "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
+}
