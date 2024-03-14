@@ -12,6 +12,13 @@
 
 * update package 1 to see if updates dependencies ([3d8c940](https://github.com/iriteshp/hellow-npm/commit/3d8c9404c9290b464d0046903c84de9b9e1b8f28))
 
+# [rp-hellow-package1-v1.10.2](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package1-v1.10.1...rp-hellow-package1-v1.10.2) (2024-03-14)
+
+
+### Bug Fixes
+
+* update package 1 to see if updates dependencies ([3d8c940](https://github.com/iriteshp/hellow-npm/commit/3d8c9404c9290b464d0046903c84de9b9e1b8f28))
+
 # [rp-hellow-package1-v1.10.1](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package1-v1.10.0...rp-hellow-package1-v1.10.1) (2024-03-14)
 
 
