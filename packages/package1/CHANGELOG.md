@@ -1,3 +1,10 @@
+# [rp-hellow-package1-v1.11.1](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package1-v1.11.0...rp-hellow-package1-v1.11.1) (2024-03-14)
+
+
+### Bug Fixes
+
+* dependencies ([449f2ab](https://github.com/iriteshp/hellow-npm/commit/449f2abc4d29d52b1a4bda54b235928b1f552b6a))
+
 # [rp-hellow-package1-v1.11.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package1-v1.10.3...rp-hellow-package1-v1.11.0) (2024-03-14)
 
 
