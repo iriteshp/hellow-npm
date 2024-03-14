@@ -3,6 +3,7 @@
   "version": "1.11.0",
   "main": "index.js",
   "scripts": {
+    "bump": "node ../../bump-version.js",
     "test": "echo \"Error: no test specified\" && exit 1 && echo",
     "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
