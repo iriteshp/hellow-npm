@@ -1,3 +1,10 @@
+# [rp-hellow-package2-v1.10.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.9.0...rp-hellow-package2-v1.10.0) (2024-03-14)
+
+
+### Features
+
+* add feat ([92d934f](https://github.com/iriteshp/hellow-npm/commit/92d934f86f458091abd8a7ff06464dd6f275a6d0))
+
 # [rp-hellow-package2-v1.9.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.8.0...rp-hellow-package2-v1.9.0) (2024-03-14)
 
 
