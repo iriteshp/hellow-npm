@@ -1,3 +1,10 @@
+# [rp-hellow-package2-v1.11.1](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.11.0...rp-hellow-package2-v1.11.1) (2024-03-14)
+
+
+### Bug Fixes
+
+* add fix ([eafe3be](https://github.com/iriteshp/hellow-npm/commit/eafe3beef6bcd49bcb5ac44a4f0d63929e578fd1))
+
 # [rp-hellow-package2-v1.11.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.10.1...rp-hellow-package2-v1.11.0) (2024-03-14)
 
 
