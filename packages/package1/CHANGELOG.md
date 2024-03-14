@@ -19,6 +19,13 @@
 
 * bump version ([8e74c10](https://github.com/iriteshp/hellow-npm/commit/8e74c1034a62664dd33f3598d8728792961929d7))
 
+# [rp-hellow-package1-v1.11.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package1-v1.10.3...rp-hellow-package1-v1.11.0) (2024-03-14)
+
+
+### Features
+
+* bump version ([8e74c10](https://github.com/iriteshp/hellow-npm/commit/8e74c1034a62664dd33f3598d8728792961929d7))
+
 # [rp-hellow-package1-v1.10.3](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package1-v1.10.2...rp-hellow-package1-v1.10.3) (2024-03-14)
 
 
