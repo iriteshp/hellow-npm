@@ -12,5 +12,13 @@
   },
   "dependencies": {
     "rp-hellow-package1": "^1.11.0"
+  },
+  "_release": {
+    "monorepo": {
+      "dependencies": [
+        "packages/package1",
+        "packages/package3"
+      ]
+    }
   }
 }
