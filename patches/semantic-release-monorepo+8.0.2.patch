@@ -7,8 +7,8 @@ index 6c89b71..b5041d1 100644
  const onlyPackageCommits = async commits => {
    const packagePath = await getPackagePath();
 -  debug('Filter commits by package path: "%s"', packagePath);
-+  const { _release } = await readPkg();
-+  const dependencies = _release?.monorepo?.dependencies || [];
++  const { release } = await readPkg();
++  const dependencies = release?.monorepo?.dependencies || [];
 +  
 +  debug('Filter commits by package path: "%s" and dependencies: %o', packagePath, dependencies);
 +  

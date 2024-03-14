@@ -9,6 +9,9 @@
     "release.package3": "git add ../package3 && git commit -m \"chore(release/package3) via automated release [skip actions]\""
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^22.0.12",
     "semantic-release-monorepo": "^8.0.2"
   },
