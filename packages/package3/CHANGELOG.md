@@ -1,3 +1,10 @@
+# [rp-hellow-package3-v1.8.1](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package3-v1.8.0...rp-hellow-package3-v1.8.1) (2024-03-14)
+
+
+### Bug Fixes
+
+* patch monorepo package ([63c170c](https://github.com/iriteshp/hellow-npm/commit/63c170c612877e0137d40707d665b7f92ca36035))
+
 # [rp-hellow-package3-v1.8.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package3-v1.7.2...rp-hellow-package3-v1.8.0) (2024-03-13)
 
 
