@@ -5,10 +5,13 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "bump": "node bump-version.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "patch-package",
     "release.dry": "yarn workspaces run semantic-release --dry-run",
-    "release": "yarn workspaces run semantic-release"
+    "release": "yarn workspaces run semantic-release -e semantic-release-monorepo",
+    "release.package2": "git add ../package2 && git commit -m \"chore(release/package2) via automated release [skip actions]\"",
+    "release.package3": "git add ../package3 && git commit -m \"chore(release/package3) via automated release [skip actions]\""
   },
   "repository": {
     "type": "git",

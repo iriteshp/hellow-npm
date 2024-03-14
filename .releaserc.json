@@ -17,7 +17,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo 'test'"
+        "prepareCmd": "yarn bump && yarn release.package2 && yarn release.package3"
       }
     ]
   ],
