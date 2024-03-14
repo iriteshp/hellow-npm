@@ -1,3 +1,17 @@
+# [rp-hellow-package3-v1.11.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package3-v1.10.1...rp-hellow-package3-v1.11.0) (2024-03-14)
+
+
+### Bug Fixes
+
+* dependencies ([449f2ab](https://github.com/iriteshp/hellow-npm/commit/449f2abc4d29d52b1a4bda54b235928b1f552b6a))
+* update package 1 ([4ae0202](https://github.com/iriteshp/hellow-npm/commit/4ae0202a256048a66d086b0dc39b6a95553e66d1))
+* update package 1 to see if updates dependencies ([3d8c940](https://github.com/iriteshp/hellow-npm/commit/3d8c9404c9290b464d0046903c84de9b9e1b8f28))
+
+
+### Features
+
+* bump version ([8e74c10](https://github.com/iriteshp/hellow-npm/commit/8e74c1034a62664dd33f3598d8728792961929d7))
+
 # [rp-hellow-package3-v1.10.1](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package3-v1.10.0...rp-hellow-package3-v1.10.1) (2024-03-14)
 
 
