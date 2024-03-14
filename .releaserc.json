@@ -1,5 +1,5 @@
 {
-  "branches": ["main", "next", "clean", "common-test"],
+  "branches": ["main", "next", "clean"],
   "ci": false,
   "dryRun": false,
   "plugins": [
