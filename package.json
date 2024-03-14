@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/iriteshp/hellow-npm#readme",
   "dependencies": {
+    "patch-package": "^8.0.0",
     "rp-hellow-package1": "^1.6.0",
     "rp-hellow-package2": "^1.6.0",
     "rp-hellow-package3": "^1.6.0"
