@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package",
     "release.package1": "git add ./packages/package1 && git commit -m \"chore(release/package1) via automated release [skip actions]\"",
     "release.package2": "git add ./packages/package2 && git commit -m \"chore(release/package2) via automated release [skip actions]\"",
     "release.package3": "git add ./packages/package3 && git commit -m \"chore(release/package3) via automated release [skip actions]\"",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/iriteshp/hellow-npm#readme",
   "dependencies": {
     "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "rp-hellow-package1": "^1.6.0",
     "rp-hellow-package2": "^1.6.0",
     "rp-hellow-package3": "^1.6.0"

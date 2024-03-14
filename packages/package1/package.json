@@ -9,5 +9,13 @@
     "devDependencies": {
         "semantic-release": "^22.0.12",
         "semantic-release-monorepo": "^8.0.2"
+    },
+    "_release": {
+        "monorepo": {
+            "dependencies": [
+              "packages/package2",
+              "packages/package3"
+            ]
+          }
     }
 }
