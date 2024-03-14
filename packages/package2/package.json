@@ -16,7 +16,8 @@
   "_release": {
     "monorepo": {
       "dependencies": [
-        "packages/package3"
+        "packages/package3",
+        "packages/package1"
       ]
     }
   }
