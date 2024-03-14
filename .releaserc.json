@@ -13,7 +13,13 @@
         "npmPublish": true
       }
     ],
-    "@semantic-release/git"
+    "@semantic-release/git",
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "echo 'before release-------------------------'"
+      }
+    ]
   ],
   "repositoryUrl": "https://github.com/iriteshp/hellow-npm"
 }
