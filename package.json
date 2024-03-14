@@ -5,7 +5,11 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release.package1": "git add ./packages/package1 && git commit -m \"chore(release/package1) via automated release [skip actions]\"",
+    "release.package2": "git add ./packages/package2 && git commit -m \"chore(release/package2) via automated release [skip actions]\"",
+    "release.package3": "git add ./packages/package3 && git commit -m \"chore(release/package3) via automated release [skip actions]\"",
+    "release.dry": "semantic-release --dry-run --tagFormat 'components/${version}' -e semantic-release-monorepo"
   },
   "repository": {
     "type": "git",

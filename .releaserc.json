@@ -17,7 +17,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo 'before release-------------------------'"
+        "prepareCmd": "npm run release.package1 && npm run release.package2 && npm release.package3"
       }
     ]
   ],
