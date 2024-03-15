@@ -17,7 +17,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo \"test\""
+        "prepareCmd": "node ../../bump-version.js"
       }
     ]
   ],
