@@ -1,7 +1,7 @@
 const { writeFileSync } = require('fs');
 
 var args = process.argv.slice(2);
-
+console.log(args)
 //check to see if script ran from package 1.
 if (args[0].includes("package1")) {
     const package1 = require('./packages/package1/package.json');
