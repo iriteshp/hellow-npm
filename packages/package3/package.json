@@ -1,6 +1,6 @@
 {
   "name": "rp-hellow-package3",
-  "version": "1.11.7",
+  "version": "1.12.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "semantic-release-monorepo": "^8.0.2"
   },
   "dependencies": {
-    "rp-hellow-package1": "^1.11.7"
+    "rp-hellow-package1": "^1.12.0"
   },
   "_release": {
     "monorepo": {
