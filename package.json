@@ -8,8 +8,8 @@
     "bump": "node bump-version.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "patch-package",
-    "release.dry": "yarn workspaces run semantic-release -e semantic-release-monorepo --dry-run",
-    "release": "yarn workspaces run semantic-release -e semantic-release-monorepo"
+    "release.dry": "yarn workspaces run release -e semantic-release-monorepo --dry-run",
+    "release": "yarn workspaces run release -e semantic-release-monorepo"
   },
   "repository": {
     "type": "git",
