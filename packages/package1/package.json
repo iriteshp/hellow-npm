@@ -1,6 +1,6 @@
 {
   "name": "rp-hellow-package1",
-  "version": "1.11.7",
+  "version": "1.12.0",
   "main": "index.js",
   "scripts": {
     "bump": "node ../../bump-version.js",
