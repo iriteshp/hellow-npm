@@ -1,3 +1,10 @@
+# [rp-hellow-package2-v1.13.0](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.12.1...rp-hellow-package2-v1.13.0) (2024-03-18)
+
+
+### Features
+
+* add comment for new release ([8a0eca6](https://github.com/iriteshp/hellow-npm/commit/8a0eca68ab6ccc1870fc6f69589d07ff5a485c4d))
+
 # [rp-hellow-package2-v1.12.1](https://github.com/iriteshp/hellow-npm/compare/rp-hellow-package2-v1.12.0...rp-hellow-package2-v1.12.1) (2024-03-15)
 
 
