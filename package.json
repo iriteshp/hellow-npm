@@ -8,8 +8,9 @@
     "bump": "node bump-version.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "patch-package",
-    "release.dry": "yarn workspaces run release -e semantic-release-monorepo --dry-run",
-    "release": "yarn workspaces run release -e semantic-release-monorepo"
+    "release.dry": "yarn workspaces foreach --exclude hellow-npm run release --dry-run",
+    "release.new": "yarn workspaces foreach -v --no-private --npm-client=yarn npm run release -e semantic-release-monorepo --dry-run",
+    "release": "yarn workspaces foreach --exclude hellow-npm run release"
   },
   "repository": {
     "type": "git",
@@ -27,15 +28,16 @@
   },
   "homepage": "https://github.com/iriteshp/hellow-npm#readme",
   "dependencies": {
-    "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0",
     "rp-hellow-package1": "^1.6.0",
     "rp-hellow-package2": "^1.6.0",
     "rp-hellow-package3": "^1.6.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
@@ -43,11 +45,13 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^11.0.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
+    "patch-package": "^8.0.0",
     "semantic-release": "22.0.12",
     "semantic-release-monorepo": "^8.0.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "tag": "latest"
-  }
+  },
+  "packageManager": "yarn@3.6.0"
 }

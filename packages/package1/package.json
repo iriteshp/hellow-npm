@@ -5,7 +5,7 @@
   "scripts": {
     "bump": "node ../../bump-version.js",
     "test": "echo \"Error: no test specified\" && exit 1 && echo",
-    "release": "semantic-release -e semantic-release-monorepo"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
